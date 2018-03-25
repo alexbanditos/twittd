@@ -1,5 +1,5 @@
 # twittd
-twittd is a project that collects twiits from twitted accoding to predefined key words and store them in a DB.
+twittd is a project that collects twitts from twitter accoding to predefined key words and store them in a DB.
 
 # How
 Using docker-compose 2 contianer will be created, the first is based on python 3 machine and will hold the script on it and the other will be mongodb machine with a link between the contianer.
