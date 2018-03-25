@@ -8,8 +8,8 @@ this data is collected to mongoDB for future use.
 
 
 # Dependecies
-Docker 
-Docker-Compose
-MongoDB Client
-Tweepy
+* Docker 
+* Docker-Compose
+* MongoDB Client
+* Tweepy
 
