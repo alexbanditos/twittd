@@ -3,7 +3,7 @@ import tweepy
 import json
 from pymongo import MongoClient
 
-MONGO_HOST= 'mongodb://mongo/twitterdb'  # assuming you have mongoDB installed locally
+MONGO_HOST= 'mongodb://mongo/twitterdb'  # assuming mongodb will be named mongo
                                              # and a database called 'twitterdb'
 
 WORDS = ['#laundering', '#money', '#security', '#iot']
