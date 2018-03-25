@@ -1,0 +1,12 @@
+version: '3'
+services:
+  pyton:
+    build: .
+    ports:
+     - "1200:100"
+    links:
+     - mongo  
+  mongo:
+    image: "mongo"
+    ports:
+     - "27017:27017"
